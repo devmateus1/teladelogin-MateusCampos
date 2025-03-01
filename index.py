@@ -18,7 +18,7 @@ jan.attributes("-alpha", 0.9) # Define a transparência da janela (0.0 a 1.0)
 #jan.iconbitmap(default="icons/1LogoIcon.ico") # Define o ícone da janela
 
 # CARREGAR IMAGEM
-#logo = PhotoImage(file="icons/LogoSergio.png") # Carrega a imagem do logo
+logo = PhotoImage(file="icons/Mateus Turkoco.png") # Carrega a imagem do logo
 
 # CRIAR FRAME
 LeftFrame = Frame(jan, width=200, height=300, bg="MIDNIGHTBLUE", relief="raise") # Cria um frame à esquerda
@@ -27,9 +27,9 @@ LeftFrame.pack(side=LEFT) # Posiciona o frame à esquerda
 RightFrame = Frame(jan, width=395, height=300, bg="MIDNIGHTBLUE", relief="raise") # Cria um frame à direita
 RightFrame.pack(side=RIGHT) # Posiciona o frame à direita
 
-# ADICIONAR LOGO
-#LogoLabel = Label(LeftFrame, image=logo, bg="MIDNIGHTBLUE") # Cria um label para a imagem do logo
-#LogoLabel.place(x=50, y=100) # Posiciona o label no frame esquerdo
+ #ADICIONAR LOGO
+LogoLabel = Label(LeftFrame, image=logo, bg="MIDNIGHTBLUE") # Cria um label para a imagem do logo
+LogoLabel.place(x=50, y=100) # Posiciona o label no frame esquerdo 
 
 # ADICIONAR CAMPOS DE USUÁRIO E SENHA
 UsuarioLabel = Label(RightFrame, text="Usuário:", font=("Century Gothic", 20), bg="MIDNIGHTBLUE", fg="White")
