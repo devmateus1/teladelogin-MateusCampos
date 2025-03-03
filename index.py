@@ -2,7 +2,7 @@
 from tkinter import * #Importa todos os mudulos do tkinter
 from tkinter import messagebox # Importar o mudulo de widgets tematicos do tkinter
 from tkinter import ttk
-from DataBase import DataBase
+from database import DataBase
 
 # Criar a janela
 jan = Tk()
